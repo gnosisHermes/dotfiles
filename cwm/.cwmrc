@@ -1,0 +1,87 @@
+# keybindings
+unbind-mouse all
+bind-key 4-v window-vtile
+bind-key 4-h window-htile
+
+unbind-key M-Tab
+bind-key 4-Tab window-cycle
+
+unbind-key MS-Tab
+bind-key 4S-Tab window-rcycle
+
+unbind-mouse 4-3
+bind-mouse 4-3 window-resize          
+bind-mouse 4-1 window-move
+bind-mouse 4-2 window-close
+bind-key 4-m window-hide
+
+bind-key 4S-r restart
+
+# windows and borders
+ignore xclock
+ignore bar
+moveamount 5
+
+bind-key 4S-q window-close
+
+# appearance
+borderwidth 2
+color activeborder "purple"
+color inactiveborder "#3c3836"
+
+fontname "Monospace:pixelsize=14"
+color menubg  "#32302f"
+color menufg  "#ebdbb2"
+color font    "#ebdbb2"
+color selfont "#32302f"
+gap 32 6 6 6
+
+# groups
+bind-key 4-1        group-only-1
+bind-key 4-2        group-only-2
+bind-key 4-3        group-only-3
+bind-key 4-4        group-only-4
+bind-key 4-5        group-only-5
+bind-key 4-6        group-only-6
+bind-key 4-7        group-only-7
+bind-key 4-8        group-only-8
+bind-key 4-9        group-only-9
+bind-key 4-0        group-only-0
+bind-key 4S-1       window-movetogroup-1
+bind-key 4S-2       window-movetogroup-2
+bind-key 4S-3       window-movetogroup-3
+bind-key 4S-4       window-movetogroup-4
+bind-key 4S-5       window-movetogroup-5
+bind-key 4S-6       window-movetogroup-6
+bind-key 4S-7       window-movetogroup-7
+bind-key 4S-8       window-movetogroup-8
+bind-key 4S-9       window-movetogroup-9
+bind-key 4S-0       window-movetogroup-0
+
+sticky yes
+autogroup 0 bar
+
+# application keybindings
+bind-key 4-Return  sakura
+bind-key 4-d       "dmenu_run"
+bind-key CMS-s     "loginctl poweroff"
+bind-key 4S-k      "xkill"
+bind-key 4-e      "thunar"
+bind-key 4S-k      "/home/anon/bin/record"
+
+# audio
+bind-key XF86AudioRaiseVolume "pamixer -i 5"
+bind-key XF86AudioLowerVolume "pamixer -d 5"
+bind-key XF86AudioMute        "pamixer -t"
+
+# screenshots
+bind-key Print     "/home/anon/.local/bin/screenshot-full"
+bind-key 4S-s      "/home/anon/bin/screenshot.sh"
+bind-key 4S-w      "/home/anon/bin/change_wall.sh"
+
+bind-key M-Print   "/home/anon/.local/bin/screenshot-area"
+
+# Music
+bind-key 4S-p      "cmus-remote -u"
+bind-key 4S-m      "/home/anon/bin/muzak.sh"
+bind-key 4S-A      "/home/anon/bin/muzak_album.sh"
