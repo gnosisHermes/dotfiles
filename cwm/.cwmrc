@@ -68,6 +68,7 @@ bind-key CMS-s     "loginctl poweroff"
 bind-key 4S-k      "xkill"
 bind-key 4-e      "thunar"
 bind-key 4S-k      "/home/anon/bin/record"
+bind-key 4S-Insert      "/home/anon/bin/record kill"
 
 # audio
 bind-key XF86AudioRaiseVolume "pamixer -i 5"
