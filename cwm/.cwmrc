@@ -79,6 +79,7 @@ bind-key XF86AudioMute        "pamixer -t"
 bind-key Print     "/home/anon/.local/bin/screenshot-full"
 bind-key 4S-s      "/home/anon/bin/screenshot.sh"
 bind-key 4S-w      "/home/anon/bin/change_wall.sh"
+bind-key 4-l      "/home/anon/bin/lokendo_dmenu.pl"
 
 bind-key M-Print   "/home/anon/.local/bin/screenshot-area"
 
