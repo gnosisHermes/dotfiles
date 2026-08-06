@@ -1,3 +1,4 @@
+(setq vc-follow-symlinks t)
 (org-babel-load-file "~/.config/emacs/config.org")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
