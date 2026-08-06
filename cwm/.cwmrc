@@ -67,6 +67,7 @@ bind-key 4-d       "dmenu_run"
 bind-key CMS-s     "loginctl poweroff"
 bind-key 4S-k      "xkill"
 bind-key 4-e      "thunar"
+bind-key 4-w      "firefox"
 bind-key 4S-k      "/home/anon/bin/record"
 bind-key 4S-Insert      "/home/anon/bin/record kill"
 
