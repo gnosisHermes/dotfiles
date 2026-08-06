@@ -1,0 +1,39 @@
+Emacs.font: Fira Code :weight=regular:size=12
+Xcursor.theme: HakureiReimu
+Xcursor.size: 24
+URxvt.font: xft:Fira Code:size=11:antialias=true
+URxvt.boldFont: xft:Fira Code:style=Bold:size=11
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+URxvt*depth: 32
+URxvt.background:[100]#000000
+URxvt*foreground: #ffffff
+URxvt*cursorColor: purple
+URxvt*scrollBar: false
+URxvt*transparent: false
+URxvt*color0:  #000000
+URxvt*color8:  #555555
+URxvt*color1:  #aa0000
+URxvt*color9:  #ff5555
+URxvt*color2:  #00aa00
+URxvt*color10: #55ff55
+URxvt*color3:  #aa5500
+URxvt*color11: #ffff55
+URxvt*color4:  #0000aa
+URxvt*color12: #5555ff
+URxvt*color5:  #aa00aa
+URxvt*color13: #ff55ff
+URxvt*color6:  #00aaaa
+URxvt*color14: #55ffff
+URxvt*color7:  #aaaaaa
+URxvt*color15: #ffffff
+
+URxvt.saveLines: 10000
+URxvt.urgentOnBell: true
+
+Xft*dpi:       96
+Xft*antialias: True
+Xft*hinting:   Full
