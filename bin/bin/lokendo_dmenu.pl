@@ -2,15 +2,18 @@
 
 # Seleccion PRIMARY a Loquendo
 
-my $lanzador = "dmenu -l 20 -c";
+use warnings;
+use strict;
 
-my %opciones = ("Jorge" => "\\Voice=Jorge \\pitch=50",
-			 "Jorge Agudo" => "\\Voice=Jorge \\pitch=100",
-			 "Carlos" => "\\Voice=Carlos \\pitch=50",
-			 "Carlos Agudo" => "\\Voice=Carlos \\pitch=100",
-			 "Diego" => "\\Voice=Diego \\pitch=50",
-			 "Diego Agudo" => "\\Voice=Diego \\pitch=100",
-			);
+my $lanzador = "dmenu -l 20 -c";
+my @voces = qw(Jorge Carlos Diego);
+
+my %opciones;
+
+for my $voz (@voces) {
+    $opciones{$voz}          = "\\Voice=$voz \\pitch=50";
+    $opciones{"$voz Agudo"}  = "\\Voice=$voz \\pitch=100";
+}
 
 # obtener selección primaria
 my $texto = `xclip -o -sel p `;
