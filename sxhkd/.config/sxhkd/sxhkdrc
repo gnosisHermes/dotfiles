@@ -1,0 +1,46 @@
+
+
+# --- Aplicaciones y Sistema ---
+super + Return
+	sakura
+
+super + d
+	dmenu_run
+
+ctrl + alt + shift + s
+	loginctl poweroff
+
+super + shift + x
+	xkill
+
+super + e
+	thunar
+
+super + w
+	firefox
+
+super + shift + k
+	/home/anon/bin/record
+
+super + shift + Insert
+	/home/anon/bin/record kill
+
+# --- Capturas y Utilidades ---
+Print
+	/home/anon/.local/bin/screenshot-full
+
+super + shift + s
+	/home/anon/bin/screenshot.sh
+
+super + shift + w
+	/home/anon/bin/change_wall.sh
+
+super + l
+	/home/anon/bin/lokendo_dmenu.pl
+# --- Música (cmus / scripts) ---
+super + shift + p
+	cmus-remote -u
+super + shift + m
+	/home/anon/bin/muzak.sh
+super + shift + A
+	/home/anon/bin/muzak_album.sh

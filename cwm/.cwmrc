@@ -60,31 +60,3 @@ bind-key 4S-0       window-movetogroup-0
 
 sticky yes
 autogroup 0 bar
-
-# application keybindings
-bind-key 4-Return  sakura
-bind-key 4-d       "dmenu_run"
-bind-key CMS-s     "loginctl poweroff"
-bind-key 4S-k      "xkill"
-bind-key 4-e      "thunar"
-bind-key 4-w      "firefox"
-bind-key 4S-k      "/home/anon/bin/record"
-bind-key 4S-Insert      "/home/anon/bin/record kill"
-
-# audio
-bind-key XF86AudioRaiseVolume "pamixer -i 5"
-bind-key XF86AudioLowerVolume "pamixer -d 5"
-bind-key XF86AudioMute        "pamixer -t"
-
-# screenshots
-bind-key Print     "/home/anon/.local/bin/screenshot-full"
-bind-key 4S-s      "/home/anon/bin/screenshot.sh"
-bind-key 4S-w      "/home/anon/bin/change_wall.sh"
-bind-key 4-l      "/home/anon/bin/lokendo_dmenu.pl"
-
-bind-key M-Print   "/home/anon/.local/bin/screenshot-area"
-
-# Music
-bind-key 4S-p      "cmus-remote -u"
-bind-key 4S-m      "/home/anon/bin/muzak.sh"
-bind-key 4S-A      "/home/anon/bin/muzak_album.sh"
