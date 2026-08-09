@@ -59,4 +59,3 @@ bind-key 4S-9       window-movetogroup-9
 bind-key 4S-0       window-movetogroup-0
 
 sticky yes
-autogroup 0 bar
