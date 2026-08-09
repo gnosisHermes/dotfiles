@@ -28,6 +28,7 @@
             "key": "GPU"
         },
 	"wm",
+	"de",
         "memory",
         "colors"
     ]
