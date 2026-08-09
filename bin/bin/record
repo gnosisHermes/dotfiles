@@ -43,11 +43,11 @@ screencast() { \
 
 video() { ffmpeg \
 	-f x11grab \
-	-framerate 30 \
+	-framerate 60 \
 	-s "$(getdim)" \
 	-i "$DISPLAY" \
 	-f pulse -i alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo.monitor \
- 	-c:v libx264 -qp 0 -r 30 \
+ 	-c:v h264 -qp 0 -r 60 \
 	"$HOME/video-$(date '+%y%m%d-%H%M-%S').mp4" &
   	updateicon "O"
 	echo $! > /tmp/recordingpid
