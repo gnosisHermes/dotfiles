@@ -11,15 +11,15 @@ border_width = 0
 border_sides = TBLR
 border_content_tint_weight = 0
 background_content_tint_weight = 0
-background_color = #000000 100
-border_color = #9370db 30
+background_color = #000000 30
+border_color = #9370db 0
 background_color_hover = #000000 100
 border_color_hover = #9370db 30
-background_color_pressed = #000000 100
-border_color_pressed = #9370db 30
+background_color_pressed = #000000 0
+border_color_pressed = #9370db 0
 
 # Background 2: Active task, Urgent task
-rounded = 1
+rounded = 0
 border_width = 1
 border_sides = TBLR
 border_content_tint_weight = 0
