@@ -6,6 +6,8 @@ super + Return
 
 super + d
 	dmenu_run
+super + shift + d
+	dmenu_desktop
 
 ctrl + alt + shift + s
 	loginctl poweroff
