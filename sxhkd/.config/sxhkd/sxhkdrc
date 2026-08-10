@@ -2,15 +2,12 @@
 
 # --- Aplicaciones y Sistema ---
 super + Return
-	sakura
+	urxvt
 
 super + d
 	dmenu_run
 super + shift + d
 	dmenu_desktop
-
-ctrl + alt + shift + s
-	loginctl poweroff
 
 super + shift + x
 	xkill
@@ -39,7 +36,7 @@ super + shift + w
 
 super + l
 	/home/anon/bin/lokendo_dmenu.pl
-# --- Música (cmus / scripts) ---
+	
 super + shift + p
 	cmus-remote -u
 super + shift + m
