@@ -9,7 +9,7 @@
 export CASE_SENSITIVE="true"
 export EDITOR="emacsclient"
 export CLICOLOR="exfxcxdxbxegedabagacad"
-export LS_COLORS
+export LS_COLORS="di=32;40:ln=35:so=31:pi=33;46:ex=32:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43"
 export PERLDOC_PAGER="less -c"
 export MANPAGER="less -c"
 export JAVA_HOME="/usr/lib/jvm/java-22-openjdk-amd64"
@@ -47,11 +47,8 @@ alias mv="mv -v"
 alias mkdir="mkdir -v"
 alias chmod="chmod -v"
 alias chown="chown -v"
-alias ls="ls --color -F"
-alias monero-cli="monero-wallet-cli --config-file /home/anon/.bitmonero/monero-wallet-cli.conf"
+alias ls="ls --color -hF"
 
-
-alias grep="ack"
 alias mirror="wget -e robots=off -mkEpnp"
 alias cpan="mdo cpan -T"
 alias sl="echo estas fumao\?"
