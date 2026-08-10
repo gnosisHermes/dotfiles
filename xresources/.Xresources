@@ -1,15 +1,17 @@
 Emacs.font: Fira Code :weight=regular:size=12
 Xcursor.theme: HakureiReimu
 Xcursor.size: 24
-URxvt.font: xft:Fira Code:size=11:antialias=true
-URxvt.boldFont: xft:Fira Code:style=Bold:size=11
+URxvt.font: xft:Tamsyn:size=15:antialias=true
+URxvt.boldFont: xft:Tamsyn:style=Bold:size=15
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.iso14755: false
 URxvt.iso14755_52: false
 
+URxvt.perl-lib: /home/anon/bin/urxvt-perls
+
 URxvt*depth: 32
-URxvt.background:[100]#000000
+URxvt.background:[80]#22023b
 URxvt*foreground: #ffffff
 URxvt*cursorColor: purple
 URxvt*scrollBar: false
@@ -31,8 +33,16 @@ URxvt*color14: #55ffff
 URxvt*color7:  #aaaaaa
 URxvt*color15: #ffffff
 
-URxvt.saveLines: 10000
-URxvt.urgentOnBell: true
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.keysym.Shift-Control-V:     perl:clipboard:paste
+URxvt.keysym.Shift-Control-C:     perl:clipboard:copy
+URxvt.url-select.launcher: /usr/bin/firefox
+URxvt.underlineURLs: true
+URxvt.keysym.M-u: perl:url-select:select_next
+
+URxvt.urlButton: 1
+
+URxvt*iconFile: .local/share/icons/GANT-master/apps/terminal.png
 
 Xft*dpi:       96
 Xft*antialias: True
