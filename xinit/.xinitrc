@@ -16,7 +16,7 @@ setxkbmap es -option ctrl:swapcaps&
 xrandr --output DisplayPort-0 --rate 164.92 --mode 1920x1080 &
 xset r rate 300 50 &
 
-tint2 -c /home/anon/.config/tint2/anon.tint2rc &
+tint2 -c .config/tint2/vertical-dark-transparent.tint2rc &
 /home/anon/bin/change_wall.sh &
 sxhkd &
 exec cwm
