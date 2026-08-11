@@ -27,14 +27,14 @@ bind-key 4S-q window-close
 # appearance
 borderwidth 2
 color activeborder "purple"
-color inactiveborder "#3c3836"
+color inactiveborder "gray"
 
 fontname "Monospace:pixelsize=14"
 color menubg  "#32302f"
 color menufg  "#ebdbb2"
 color font    "#ebdbb2"
 color selfont "#32302f"
-gap 32 6 6 6
+gap 32 32 6 6
 
 # groups
 bind-key 4-1        group-only-1
