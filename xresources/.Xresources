@@ -1,7 +1,6 @@
-Emacs.font: Fira Code :weight=regular:size=12
 Xcursor.theme: HakureiReimu
 Xcursor.size: 24
-URxvt.font: xft:Tamsyn:size=15:antialias=true
+URxvt.font: xft:Tamsyn:size=14:antialias=true
 URxvt.boldFont: xft:Tamsyn:style=Bold:size=15
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
@@ -11,7 +10,8 @@ URxvt.iso14755_52: false
 URxvt.perl-lib: /home/anon/bin/urxvt-perls
 
 URxvt*depth: 32
-URxvt.background:[80]#22023b
+URxvt.background:[80]#0f0214
+nsxiv.background:#0f0214
 URxvt*foreground: #ffffff
 URxvt*cursorColor: purple
 URxvt*scrollBar: false
