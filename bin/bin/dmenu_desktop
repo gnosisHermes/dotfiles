@@ -7,8 +7,3 @@ done | sort -u | dmenu -i -c -l 15 | cut -d'|' -f2 | xargs)
 
 gio launch "$chosen";
 
-# 2. Si seleccionaste algo, extrae el Exec y ejecútalo en segundo plano
-#if [ -n "$chosen" ] && [ -f "$chosen" ]; then
-#    exec_line=$(grep '^Exec=' "$chosen" | head -n 1 | cut -d= -f2- | sed 's/ *%[fFuUickK]//g')
-#    nohup setsid sh -c "$exec_line" >/dev/null 2>&1 &
-#fi
