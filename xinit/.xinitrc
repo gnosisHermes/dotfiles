@@ -1,7 +1,6 @@
 export XCURSOR_THEME="Hakurei Reimu"
 export XCURSOR_SIZE=24
 export QT_QPA_PLATFORMTHEME=gtk3
-export XDG_CURRENT_DESKTOP=GNOME
 
 xrdb "$HOME/.Xresources"
 xsettingsd &
@@ -10,15 +9,12 @@ picom &
 conky &
 polybar &
 
-xrdb $HOME/.Xresources &
-xwinwrap -ov -g 700x210+1225+900 -ni -b -nf -s -argb -- urxvt -embed WID -depth 32 -bg "[0]#000000" -fn 'xft:IBM Plex Mono:size=7' +sb +bl -e sh -c 'exec cava -p ~/.config/cava/config' &
+xwinwrap -ov -g 700x300+1225+765 -ni -b -nf -s -argb -- urxvt -embed WID -depth 32 -bg "[0]#000000" -fn 'xft:IBM Plex Mono:size=7' +sb +bl -e sh -c 'exec cava -p ~/.config/cava/config' &
 setxkbmap es -option ctrl:swapcaps&
 xrandr --output DisplayPort-0 --rate 164.92 --mode 1920x1080 &
 xset r rate 300 50 &
 
-tint2 -c .config/tint2/vertical-dark-transparent.tint2rc &
+tint2 -c .config/tint2/anon.tint2rc &
 /home/anon/bin/change_wall.sh &
 sxhkd &
 exec cwm
-
-
