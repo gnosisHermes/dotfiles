@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 export DISPLAY=:0
 mapfile -t wallpapers < <(ls -1 /home/anon/img/wallpapers)
