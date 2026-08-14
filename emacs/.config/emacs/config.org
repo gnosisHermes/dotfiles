@@ -6,16 +6,6 @@ This is my Emacs configuration, if you don't like it, that's ok
 because I made it thinking of myself. the code here is tidy
 so anyone could modify it without great pain.
 
-** Installation
-Just copy this repository to your emacs configuration path. Nothing
-else is needed.
-* Why?
-- I can
-- I don't like doom emacs
-- I don't like spacemacs
-- I don't want to learn doom emacs
-- I don't want to learn spacemacs
-- I don't like Vim
 * gc
 #+begin_src emacs-lisp
   ;; Minimize garbage collection during startup
@@ -65,7 +55,7 @@ init to install the fonts.
        :init (which-key-mode))
 #+END_SRC
 * Autoindentation
-C-c n for indent-buffer. I don't use the rest.
+C-c n for indent-buffer.
 #+BEGIN_SRC emacs-lisp
   (setq-default tab-width 5)
   (defvaralias 'sgml-basic-offset 'tab-width)
@@ -115,9 +105,6 @@ it. I don't think i'd ever use the overwritten.
        :defer 1)
 #+END_SRC
 * My functions
-
-
-
 Functions I wrote because emacs lisp is cool and useful.
 #+begin_src emacs-lisp
   (defun reimu/goto-previous-buffer ()
