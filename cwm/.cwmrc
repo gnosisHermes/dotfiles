@@ -12,7 +12,6 @@ bind-key 4S-Tab window-rcycle
 unbind-mouse 4-3
 bind-mouse 4-3 window-resize          
 bind-mouse 4-1 window-move
-bind-mouse 4-2 window-close
 bind-key 4-m window-hide
 
 bind-key 4S-r restart
