@@ -1,4 +1,6 @@
+ignore "tint2"
 # keybindings
+
 unbind-mouse all
 bind-key 4-v window-vtile
 bind-key 4-h window-htile
