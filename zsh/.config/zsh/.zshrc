@@ -136,5 +136,6 @@ antidote load ${ZDOTDIR:-$HOME}/.zsh_plugins.txt
 
 export YSU_HARDCORE=1
 
-export PATH=/home/anon/rakudo/bin:/home/anon/rakudo/share/perl6/site/bin:/home/anon/rakudo/share/perl6/vendor/bin:/home/anon/rakudo/share/perl6/core/bin::/home/anon/.local/bin:$PATH
+export PATH=/home/anon/bin/rakudo/bin:/home/anon/rakudo/share/perl6/site/bin:/home/anon/rakudo/share/perl6/vendor/bin:/home/anon/rakudo/share/perl6/core/bin::/home/anon/.local/bin:$PATH
 
+. "/home/anon/.deno/env"
