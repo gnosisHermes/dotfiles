@@ -43,3 +43,5 @@ super + shift + m
 	/home/anon/bin/muzak.sh
 super + shift + A
 	/home/anon/bin/muzak_album.sh
+super + y
+      urxvt -e youtube-viewer
