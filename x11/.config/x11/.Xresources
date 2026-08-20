@@ -42,7 +42,7 @@ URxvt.keysym.M-u: perl:url-select:select_next
 
 URxvt.urlButton: 1
 
-URxvt*iconFile: .local/share/icons/GANT-master/apps/terminal.png
+URxvt*iconFile: /home/anon/.local/share/icons/GANT-master/apps/terminal.png
 
 URxvt*scrollTtyOutput:      false
 URxvt*scrollWithBuffer:     true
@@ -51,3 +51,13 @@ URxvt*scrollTtyKeypress:    true
 Xft*dpi:       96
 Xft*antialias: True
 Xft*hinting:   Full
+
+! Font
+XFiles.faceName:                xft:Tamzen:size=14:antialias=true
+XFiles.faceSize:                12
+
+! Plan 9 Acme colors
+XFiles.background:              #0f0214
+XFiles.foreground:              #ffffff
+XFiles.activeBackground:        #0f0214
+XFiles.activeForeground:        #ffffff
