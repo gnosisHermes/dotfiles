@@ -3,7 +3,6 @@
 # --- Aplicaciones y Sistema ---
 super + Return
 	urxvt
-
 super + d
 	dmenu_run
 super + shift + d
@@ -13,7 +12,7 @@ super + shift + x
 	xkill
 
 super + e
-	thunar
+	xfiles
 
 super + w
 	firefox
@@ -36,7 +35,6 @@ super + shift + w
 
 super + l
 	/home/anon/bin/lokendo_dmenu.pl
-	
 super + shift + p
 	cmus-remote -u
 super + shift + m
