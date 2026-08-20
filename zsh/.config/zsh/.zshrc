@@ -9,13 +9,11 @@
 export CASE_SENSITIVE="true"
 export EDITOR="emacsclient"
 export CLICOLOR="exfxcxdxbxegedabagacad"
-export LS_COLORS="di=32;40:ln=35:so=31:pi=33;46:ex=32:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43"
 export LS_COLORS='di=1;48;5;16;38;5;39:ln=1;38;5;213:so=38;5;213:pi=38;5;222:ex=1;38;5;46:bd=48;5;235;38;5;222:cd=48;5;235;38;5;222:su=48;5;196;38;5;231:sg=48;5;208;38;5;16:tw=48;5;40;38;5;16:ow=48;5;33;38;5;231:st=48;5;33;38;5;231:*.tar=1;38;5;208:*.zip=1;38;5;208:*.gz=1;38;5;208:*.rar=1;38;5;208:*.7z=1;38;5;208:*.jpg=38;5;213:*.jpeg=38;5;213:*.png=38;5;213:*.gif=38;5;213:*.svg=38;5;213:*.mp4=38;5;213:*.mkv=38;5;213:*.mp3=38;5;177:*.flac=38;5;177:*.md=38;5;222:*.txt=38;5;250:*.json=38;5;186:*.yaml=38;5;186:*.yml=38;5;186:*.toml=38;5;186:*.py=38;5;114:*.js=38;5;222:*.ts=38;5;75:*.rs=38;5;208:*.go=38;5;80:*.sh=1;38;5;46:*.env=1;38;5;196;5:*.log=38;5;239'
 
 export PERLDOC_PAGER="less -c"
 export MANPAGER="less -c"
 export JAVA_HOME="/usr/lib/jvm/java-22-openjdk-amd64"
-export MANPAGER="most"
 #export TERM=xterm-256color
 # Shell options
 
@@ -54,7 +52,6 @@ alias ls="ls --color -hF"
 alias mirror="wget -e robots=off -mkEpnp"
 alias cpan="mdo cpan -T"
 alias sl="echo estas fumao\?"
-alias less="most"
 alias e="emacsclient -n"      # open in existing frame
 alias et="emacsclient -nw"    # open in terminal
 alias ef="emacsclient -nc"    # open in new frame
@@ -136,6 +133,6 @@ antidote load ${ZDOTDIR:-$HOME}/.zsh_plugins.txt
 
 export YSU_HARDCORE=1
 
-export PATH=/home/anon/bin/rakudo/bin:/home/anon/rakudo/share/perl6/site/bin:/home/anon/rakudo/share/perl6/vendor/bin:/home/anon/rakudo/share/perl6/core/bin::/home/anon/.local/bin:$PATH
+export PATH=/home/anon/bin/rakudo/bin:/home/anon/bin/llama:/home/anon/rakudo/share/perl6/site/bin:/home/anon/rakudo/share/perl6/vendor/bin:/home/anon/rakudo/share/perl6/core/bin::/home/anon/.local/bin:$PATH
 
 . "/home/anon/.deno/env"
